@@ -25,7 +25,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Using OpenCV to replaces the green background in a video (chroma key) with a selected video or background image.
+### <main.py> Using OpenCV to replaces the green background in a video (chroma key) with a selected video or background image.
 
 Use:
 ```bash
@@ -45,16 +45,16 @@ python main.py -i data/foreground.mp4 -b data/background.jpg -c data/samples.jso
 
 ```
 
-### Using a deep learning open source project to change a video background to Chroma Key
+### <external project> Using a deep learning open source project to change a video background to Chroma Key
 This project allows you to insert your own videos and convert your backgrounds to Chroma Key.
 
 * [Link for Github](https://github.com/PeterL1n/RobustVideoMatting)
 * [Link for Colab](https://colab.research.google.com/drive/10z-pNKRnVNsp0Lq9tH1J_XPZ7CBC_uHm?usp=sharing)
 
-### Script to resize a video.
+### <resize-video.py> Script to resize a video.
 Use:
 ```bash
-python resize-video.py -i <video_file> -o <output_video_file>
+python resize-video.py -i <video_file> -o <output_video_file> -w <width> -ht <height>
 ```
 
 Arguments:
@@ -71,7 +71,7 @@ python resize-video.py -i data/input.mp4 -o data/output.mp4 -w 1920 -h 1080
 
 ```
 
-### Script to extract RGB colors from a video using OpenCV.
+### <searching-colors.py> Script to extract RGB colors from a video using OpenCV.
 > If the values ​​defined to create the green mask do not give good results with other videos, you can try deleting the content of samples.json and using this script to generate new metrics.
 
 Use:
