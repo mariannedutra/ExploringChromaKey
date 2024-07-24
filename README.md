@@ -54,7 +54,7 @@ This project allows you to insert your own videos and convert your backgrounds t
 ### Script to resize a video.
 Use:
 ```bash
-python resize-video.py -i <video_file> 
+python resize-video.py -i <video_file> -o <output_video_file>
 ```
 
 Arguments:
