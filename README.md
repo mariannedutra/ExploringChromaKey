@@ -45,7 +45,7 @@ python main.py -i data/foreground.mp4 -b data/background.jpg -c data/samples.jso
 
 ```
 
-### <external project> Using a deep learning open source project to change a video background to Chroma Key
+### <external-project> Using a deep learning open source project to change a video background to Chroma Key
 This project allows you to insert your own videos and convert your backgrounds to Chroma Key.
 
 * [Link for Github](https://github.com/PeterL1n/RobustVideoMatting)
